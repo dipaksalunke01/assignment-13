@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <style>
+        .sub{
+            border: #0066ff 2px solid ;
+            background-color:#66a3ff;
+            border-radius: 10px;
+        }
+
+        .res{
+            border:#ff0000 2px dotted ;
+            background-color:#ff3333;
+            border-radius: 10px;
+        }
+
+        .can{
+            border:rgb(43, 39, 39) 2px solid ;
+            
+            background-color: rgb(92, 84, 84);
+            border-radius: 10px;
+        } 
+
+        .next{
+            border-style: double;
+            border-width: 3px;
+            border-color: rgb(38, 219, 219);
+            border-radius: 0px 10px 10px 0px;
+            background-color:rgb(47, 173, 173);
+        } 
+
+        .back{
+            border-style: double;
+            border-color: rgb(38, 219, 219);
+            border-width: 3px;
+            border-radius: 10px 0px 0px 10px;
+            background-color:rgb(47, 173, 173);
+        } 
+        
+
+    </style>
+</head>
+<body>
+    <form>
+        <label for="fname">First Name</label> <br />
+        <input type="text" id="fname" required /> <br /><br />
+
+        <label for="lname">Last Name</label> <br />
+        <input type="text" id="lname"  required /> <br /><br />
+
+        <label for="mname">Mother Name</label> <br />
+        <input type="text" id="mname"  required /> <br /><br />
+
+        <label for="fname">Father Name</label> <br />
+        <input type="text" id="fname"  required /> <br /><br />
+
+        <label for="address">Address</label> <br />
+        <input type="text" id="address"  required /> <br /><br />
+         
+        <input type="submit" value="Back" class="back"/> &nbsp;
+        <input type="submit" value="Submit" class="sub"/> &nbsp;
+        <input type="submit" value="Reset" class="res"/> &nbsp;
+        <input type="submit" value="Cancel" class="can"/> &nbsp;
+        <input type="submit" value="Next" class="next"/> &nbsp;
+       
+
+
+    </form>
+</body>
+</html>
